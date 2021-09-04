@@ -1,0 +1,2 @@
+# Write-a-program-to-find-the-largest-number-among-three-numbers-entered-by-the-user.
+#include&lt;iostream>  using namespace std; int main() { int n1, n2, n3; cout&lt;&lt;"Enter three numbers: "; cin>>n1>>n2>>n3; if(n1>=n2 &amp;&amp; n1>= n3) { cout&lt;&lt;"Larger number: "&lt;&lt;n1; } if(n2>=n1 &amp;&amp; n2>= n3) { cout&lt;&lt;"Larger Number: "&lt;&lt;n2; } if(n3>=n1 &amp;&amp; n3>= n2) {  cout&lt;&lt;"Larger number: "&lt;&lt;n3; } return 0;
